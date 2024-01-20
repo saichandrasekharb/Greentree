@@ -1,0 +1,796 @@
+
+nav {
+    list-style: none;
+    background-color: #fff;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: Helvetica;
+    width: 100%;
+    height: 128px;
+  }
+  
+  .left {
+    width: 30%;
+    height: 128px;
+    display: flex;
+    justify-content: flex-start;
+    color: #354463;
+    font: normal bold 22px/28px Helvetica;
+    text-align: left;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5%;
+  }
+  
+  .middle {
+    display: flex;
+    width: 40%;
+    height: 128px;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .middle li {
+    position: relative;
+    width: 100%;
+    height: 128px;
+    display: flex;
+    justify-content: flex-start;
+    color: #354463;
+    text-align: left;
+    align-items: center;
+    padding: 5%;
+  }
+  
+  .right {
+    width: 30%;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right > button {
+    position: relative;
+    width: 10rem;
+    height: 48px;
+    font: normal bold 18px/22px Helvetica;
+    border-radius: 34px;
+    border: none;
+    color: #354463;
+    font-size: 16px;
+    padding: 11px 26px;
+    background: #C1F7D5;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      flex-wrap: wrap;
+      height: 50vw;
+      flex-direction: column;
+    }
+  
+    .left {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .middle {
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+  
+    .right {
+      align-items: end;
+      justify-content: first baseline;
+    }
+  }
+  
+  
+    
+  
+    .second-page {
+      position: relative;
+      width: 100%; /* Ensure the container takes up the full width of its parent. */
+      height: 25rem; /* Create a height context for padding-bottom. */
+      display: flex;
+      background-image: url('assets/anniebag.png'); /* Replace 'your-image.jpg' with the path to your image. */
+      box-sizing: border-box;
+      flex-wrap: wrap;
+      background-position: center center;
+      background-color: #354463;
+      justify-content: center; /* Center content horizontally */
+      box-sizing: border-box;
+      padding-top:8% ;
+      
+  
+    }
+  
+    .sec-img {
+      display: flex;
+      position: relative;
+      height: 100%; /* Allow .sec-img to take up the full height of the parent container */
+      width: 50%;
+      justify-content:start; /* Center content horizontally */
+      align-items: flex-start; 
+      
+    }
+    .sec-rig{
+      width: 544px;
+      height: 356px;
+      display: flex;
+      position: relative;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+  
+    }
+    
+  
+    .white-box{
+      flex-direction: column;
+      position: relative;
+      display: flex;
+      width: 544px;
+      height: 336px;
+      background-color:#C1F7D5; 
+      justify-content: center;
+      align-items: center;  
+      text-align: left;
+      font: normal normal bold 28px/36px Helvetica;
+      letter-spacing: 0px;
+      color: #354463;
+      opacity: 1;
+      padding: 5vh;
+      box-sizing: border-box;
+      z-index: 2;
+    }
+  
+  
+   .blue-box {
+      bottom: -20px;
+      left: 20%;
+      position: inherit;
+      display: flex;
+      width: 160px;
+      height: 52px;
+      text-align: center;
+      font: normal normal normal 14px/17px Helvetica;
+      letter-spacing: 0.56px;
+      color: #FFFFFF;
+      opacity: 1;
+      background-color: #354463;
+      
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      z-index: 3;
+  
+    }
+  
+  
+  .third-page{
+      position: relative;
+      width: 100%;
+      height: 1056px;
+      display: flex;
+      background-color: #354463;
+      box-sizing: border-box;
+      padding: 100px;
+      flex-direction: column;
+  }
+  
+  .third-top{
+      display: flex;
+      position: relative;
+      width: 1122px;
+      height: 237px;
+      
+      flex-wrap: wrap;
+      margin-bottom: 10%;
+      
+  }
+    
+  
+  .small-box {
+      position: relative;
+      display: flex;
+      width: 160px;
+      height: 52px;
+      text-align: center;
+      font: normal normal normal 14px/17px Helvetica;
+      letter-spacing: 0.56px;
+      background-color: #fff;
+      color: #354463; /* Change the text color to white (#ffffff) or any other contrasting color */
+      z-index: 2;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+  
+    }
+    
+  .third-heading{
+      display: flex;
+      width: 100%;
+      height: 80%;
+      position: relative;
+      
+      text-align: left;
+  font: normal normal bold 44px/56px Helvetica;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  }  
+  
+  .third-middle{
+      display: flex;
+      height: 60%;
+      width: 100%;
+      position: relative;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  
+  .row1{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      position: relative;
+      
+      
+  }
+  .row2{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      position: relative;
+      
+      
+  }
+  
+  .row-cards{
+      width: 25%;
+      height: 100%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+  
+  }
+  
+  .icons{
+      width: 50%;
+      height: 40%;
+      
+  }
+  .mid-bold{
+      width: 100%;
+      height: 20%;
+      text-align: left;
+  font: normal normal bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  }
+  .mid-sub{
+  
+      width: 100%;
+      height: 40%;
+      text-align: left;
+  font: normal normal 300 16px/24px Helvetica;
+  letter-spacing: -0.16px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  }
+  
+  .fourth-page{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 1264px;
+      background-color: #fff;
+      padding: 10%;
+      flex-direction: column;
+      box-sizing: border-box;
+  }
+  
+  .fourth-top{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 20%;
+      
+      margin-bottom: 10%;
+  }
+   
+  .top-left{
+      display: flex;
+      height: 100%;
+      width: 50%;
+      flex-direction: column;
+  }
+  
+  .four-bt{
+      position: relative;
+      display: flex;
+      width: 160px;
+      height: 52px;
+      text-align: center;
+      font: normal normal normal 14px/17px Helvetica;
+      letter-spacing: 0.56px;
+      background-color: #354463;
+      color: #fff; /* Change the text color to white (#ffffff) or any other contrasting color */
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .four-head{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      
+      text-align: left;
+  font: normal normal bold 44px Helvetica;
+  letter-spacing: 0.16px;
+  color: rgba(53, 68, 99, 1);
+  opacity: 1;
+  
+  }
+  
+  .four-rig{
+      display: flex;
+      height: 100%;
+      width: 50%;
+      flex-direction: column;
+      
+      text-align: left;
+      font: normal normal 300 20px/30px Helvetica;
+      letter-spacing: -0.4px;
+      color: rgba(53, 68, 99, 1);
+      opacity: 1;
+      align-items: center;
+      justify-content: flex-end;
+  }
+  
+  .four-mid{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 768px;
+      
+      flex-direction: column;
+  }
+    
+  .four-row{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 50%;
+      
+      justify-content: space-evenly;
+      margin: 20px;
+  
+  }
+  
+  .four-card {
+      display: flex;
+      position: relative;
+      height: 100%;
+      width: 30%; 
+      flex-direction: column;
+      overflow: hidden; /* To hide overflow from card-low */
+  
+    }
+    
+    .card-img {
+      display: flex;
+      height: 90%;
+      width: 90%;
+      align-items: flex-start;
+      justify-content: flex-start;
+      
+      position: relative; /* Add this for stacking context */
+  
+    }
+    
+    .card-low {
+      
+      right: -10%;
+      transform: translateY(-50%); /* Adjust the translateY to 50% */
+      display: flex;
+      position: relative;
+      height: 20%;
+      width: 90%;
+      align-items:center;
+      justify-content: center;
+      background-color: rgba(53, 68, 99, 1);
+      text-align: center;
+      color: white;
+      font: normal normal 300 16px/24px Helvetica;
+      letter-spacing: -0.16px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 1;
+    }
+    
+    
+  .fifth-page{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 670px;
+      background-color: #354463;
+      background-image: url('assets/imgs/Impact Background.png');
+      padding: 8%;
+      box-sizing: border-box;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      
+  }
+  
+  .fif-top{
+      display: flex;
+      position: relative;
+      width: 80%;
+      height: 191px;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+  }
+  .fif-top-box{
+      display: flex;
+      position: relative;
+      width: 160px;
+      height: 40px;
+      background-color: #FFFFFF;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .fif-bot-box{
+      display: flex;
+      width: 80%;
+      height: 109px;
+      position: relative;
+      text-align: center;
+      font: normal normal bold 44px/56px Helvetica;
+      letter-spacing: 0px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 1;
+      padding: 0 10%;
+  }
+  
+  .fif-mid{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 143px;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+  
+  .mid-card{
+      display: flex;
+      position: relative;
+      width: 256px;
+      height: 100%;
+      
+      flex-direction: column;
+      
+  }
+  
+  .midcard-top{
+      display: flex;
+      position: relative;
+      height: 50%;
+      width: 100%;
+      
+      text-align: center;
+  font: normal normal normal 72px/76px Flood Std;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+      justify-content: center;
+  }
+  .card-bot{
+      display: flex;
+      position: relative;
+      height: 50%;
+      width: 100%;
+      
+      text-align: center;
+  font: Helvetica;
+  font-size: 28px;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  justify-content: center;
+  
+  }
+  
+  
+  .six-page{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 1264px;
+      background-color: #354463;
+      padding: 8%;
+      flex-direction: column;
+      box-sizing: border-box;
+      justify-content: space-between;
+  
+  }
+  .six-top{
+      display: flex;
+      position: relative;
+      height: 160px;
+      width: 70%;
+      margin-left: 5%;
+      text-align: left;
+  font: normal normal normal 72px/76px Flood Std;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  }
+  
+  .boxes{
+      position: relative;
+      display: flex;
+      height: 804px;
+      width: 100%;
+      
+      justify-content: space-around;
+  }
+  
+  .single-box{    
+      display: flex;
+      position: relative;
+      height: 804px;
+      width: 40%;
+      
+      align-items: flex-end;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+  
+  }
+  
+  .text-box{
+      display: flex;
+      position: relative;
+      height: 47%;
+      width: 100%;
+      background-color: #fff;
+      padding: 8%;
+      box-sizing: border-box;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+  }
+  .img-box{
+      display: flex;
+      position: relative;
+      height: 50%;
+      width: 100%;
+      
+  
+  }
+  .ssmall-box{
+      display: flex;
+      position: relative;
+      width: 160px;
+      height: 40px;
+      background-color: white;
+      transform: translate(-180%,50%);
+      z-index: 2;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  
+  .head-text{
+      display: flex;
+      position: relative;
+      height: 30%;
+      width: 100%;
+      font-size: 24px;
+      text-align: left;
+  font: normal normal bold Helvetica;
+  letter-spacing: 0px;
+  color: rgba(53, 68, 99, 1);
+  opacity: 1;
+  }
+  
+  .subs-text{
+      display: flex;
+      position: relative;
+      height: 40;
+      text-align: left;
+  font: normal normal 300 20px/30px Helvetica;
+  letter-spacing: -0.4px;
+  color: rgba(53, 68, 99, 1);
+  opacity: 1;
+  }
+  
+  .button-box{
+      position:relative;
+      display: flex;
+      width: 20%;
+      height: 5%;
+    font: normal bold 18px/22px Helvetica;
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font: normal normal bold 18px/22px Helvetica;
+    padding: 11px 26px;
+    background: rgba(193, 247, 213, 1);
+    text-align: center;
+  font: normal normal bold  Helvetica;
+  letter-spacing: 0px;
+  color: rgba(53, 68, 99, 1);
+  opacity: 1;
+  font-size: 10px;
+  }
+  
+  
+  .GREEN-NAV-last {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: #c1f7d5;
+      opacity: 2;
+      display: flex; /* Use flex instead of grid */
+      padding: 20px;
+      font: Helvetica;
+      top: 6150px;
+      width: 1440px;
+      height: 240px;
+      box-sizing: border-box;
+      padding: 70px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      
+    }
+    
+    .green-lef {
+      width: 50%; /* Half of the parent container */
+      height: 70px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .green-lef p {
+      text-align: left;
+      font: normal normal bold 28px/36px Helvetica;
+      letter-spacing: 0px;
+      color: #354463;
+    }
+    
+    .green-rig {
+      width: 50%; /* Half of the parent container */
+      height: 70px;
+      max-width: 100%; /* Set a maximum width to prevent overflow */
+      display: flex;
+      align-items: center;
+      padding: 0px 20px;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    .green-wit {
+      font: normal normal 18px/22px Helvetica;
+      letter-spacing: 1px;
+      width: 252px;
+      height: 48px;
+      border-radius: 34px;
+      border: none;
+      background: #ffffff;
+      color: #354463;
+      font-size: 16px;
+      position: relative;
+      text-align: center;
+    }
+    
+    .green-blue-button {
+      width: 160px;
+      height: 48px;
+      font: normal normal 18px/22px Helvetica;
+      border-radius: 34px;
+      border: none;
+      background: #354463;
+      position: relative;
+      display: flex; /* Use flexbox to center text */
+      justify-content: center; /* Center text horizontally */
+      align-items: center; /* Center text vertically */
+      text-align: center; /* This can be removed */
+      text-justify: inherit; /* This can be removed */
+    }
+    
+    
+    .input-container {
+      display: flex;
+      align-items: stretch;
+    }
+    
+    .green-lef {
+      width: 50%; /* Adjust as needed */
+      float: left;
+    }
+    
+    .green-rig {
+      height: 70px;
+      max-width: 100%;
+      /* display: grid; */
+      align-items: center;
+      padding: 0px 20px;
+    }
+    
+    .bottom {
+      position: relative;
+      width: 1440px;
+      height: 371px;
+      background-color: #ffffff;
+      display: flex;
+      box-sizing: border-box;
+      padding: 100px;
+    }
+    
+    .bottom ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly; /* Spread the cards evenly */
+      gap: 25px;
+    }
+    .b-title {
+      display: flex;
+      width: 400px;
+      height: 81px;
+    }
+    
+    .b-cards {
+      width: 126px;
+      height: 94px;
+    }
+    
+    .card-top {
+      text-align: left;
+      font: normal normal normal 14px/17px Helvetica;
+    }
+    
+    .card-ds {
+      font: normal normal 300 14px/20px Helvetica;
+      letter-spacing: -0.14px;
+    }
+    
+    .b-image {
+      justify-items: center;
+      align-items: center;
+      display: flex;
+      padding: 20px;
+      position: relative;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .GREEN-NAV-last {
+        flex-wrap: wrap; /* Change to row for mobile */
+        flex-direction: column;
+      }
+      .green-lef{
+        flex-wrap: wrap;
+      }
+      .green-rig{
+        flex-wrap: wrap;
+      }
+    }
+    

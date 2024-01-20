@@ -1,0 +1,1026 @@
+ /* Google fonts
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Rambla&display=swap');
+ 
+  @font-face{
+    font-family: 'flood';
+    /* font-stretch: condensed; */
+    src: url('/assets/fonts/Flood.ttf');
+    line-height: 1em;
+  }
+  .blue{
+    background-color: #354463;
+    color: white;
+  }
+
+  .button-read-more{
+    background-color: #C1F7D5;
+    padding: 0.5em 1em;
+    border-radius: 3em;
+    font-size: 1.2em;
+  }
+
+ *{
+   padding: 0;
+   margin: 0;
+ }
+ 
+ /*  */
+ 
+ /*Navigation section starts here  */
+ 
+ main{
+  font-family: 'Rambla', sans-serif;
+ }
+
+ nav{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+ 
+  color: #354463;
+}
+
+.logo{
+  /* background-color: aquamarine; */
+  padding-left: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+}
+
+ .logo h3 {
+   width: 8em;
+   font-size: 2em;
+ }
+.nav-items{
+  /* background-color: cadetblue; */
+  padding: 1em 1em;
+  padding-top: 2.5em;
+  text-align: center;
+  
+}
+
+.donate{
+  /* background: chocolate; */
+  text-align: center;
+  padding: 1em 1em;
+  padding-top: 2em;
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding-left: 1em;
+ 
+  color: #354463;
+  font-size: 1.3em;
+  
+}
+
+.donate button a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #354463
+}
+.donate button {
+  padding: 6px 10px;
+  border-radius: 30px;
+  background: #C1F7D5;
+  box-shadow: none;
+}
+
+
+/* Navigation section ends here */
+
+ 
+
+/* Hero section starts here*/
+
+.hero-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;  
+  background-image: url('../assets/images/hero.png');  
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  font-family: 'Rambla', sans-serif;
+  color: #354463;
+   
+  }
+  .hero-content{
+    display: grid;
+     padding: 6em;
+    grid-template-columns: 1.5fr 1.5fr;
+    background-image : url('assets/images/hero.png');
+    background-size : cover;
+    background-position:top;
+  }
+  .hero-section .hero-content .hero-quote{
+    
+    background-color: rgb(255, 255, 255);
+    padding: 3em;
+    align-self: center;
+  }
+  .hero-quote{
+    position: relative;
+  }
+  .hero-quote-climate{
+    font-size: 2.6em;
+  }
+
+  .hero-hash-tag p{
+    font-family: 'flood';
+    line-height: 1em;
+    font-size: 4em;
+    padding-left: 1em;
+    color: white;
+    
+  }
+  .hero-the-issue-tag{
+    position: absolute;
+    background-color: #354463;
+    color: white;
+    padding: 0.5em 1em;
+    top: -0.5em;
+  }
+  /* Hero section end here */
+  
+
+
+  /* Take action section starts here */
+
+.take-action{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 6em 4em;
+  background-color: #C1F7D5;
+  color: #354463;
+}
+.take-action .take-action-item{
+  padding: 2em;
+}
+ 
+.take-action-item h3 {
+  font-size: 2em;
+  padding-bottom: 0.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.take-action-item p{
+  font-size: 1.5em;
+}
+
+.take-action .take-action-tag {
+  position: absolute;
+  background-color: #354463;
+  color: white;
+  top: -0.9em;
+  left: 50%;
+  transform: translateX(-48px);
+  padding: 0.6em 0.8em; 
+}
+
+/* Take action section ends here */
+
+/* Our mission section starts here */
+
+.our-mission{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding:6em;
+  grid-row-gap: 6em;
+  background-color: #354463;
+
+}
+
+.our-mission .what-we-do{
+ width: 8em;
+ padding: 0.5em 1em;
+ background-color: white;
+ color: #354463;
+
+}
+
+.our-mission-heading .our-mission-text {
+  font-size: 2.6em;
+  color: antiquewhite;
+}
+ 
+.our-mission-content{
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-column-gap: 3em;
+ 
+}
+
+.our-mission-content-item{
+  position: relative;
+  background: white;
+}
+
+.our-mission-content-item img{
+  position: relative;
+  left: 2em;
+  top: -2em;
+  width: 100%;
+}
+
+.our-mission-content-text{
+ 
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  color: #354463;
+
+}
+
+.our-mission-button{
+   margin-left: 2em;
+   margin-right: 2em;
+   padding: 0.5em 1em;
+   margin-bottom: 1em;
+   background: #C1F7D5;
+   color: #354463;
+   font-size: 1em;
+   border-radius: 3em;
+}
+.our-mission-button a{
+  text-decoration: none;
+  color: #354463;
+}
+/*  */
+
+
+
+.our-mission-content-text h2{
+  padding-bottom: 1em;
+  font-size: 25px;
+}
+
+.our-mission-content-text button{
+  margin-top:2em;
+  padding: 8px 16px;
+  border-radius: 1em;
+}
+ 
+/* our mission section ends here
+ */
+
+
+/* Did you know section starts here */
+
+.did-you-know{
+  background-image: url('assets/images/did-you-know-background.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: grid;
+  padding: 6em;
+  grid-column-gap: 4em;
+  grid-template-columns: 1fr 1fr;
+  color: #354463;
+}
+
+.did-you-know-hash-tag p{
+  font-size: 4em;
+  font-family: 'flood';
+  line-height: 1em;
+  color: white;
+}
+
+.did-you-know-content{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2em;
+}
+
+.did-you-know-con-item{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: white;
+  padding: 3em;
+}
+.did-you-know-con-text{
+  font-size: 1.2em;
+}
+
+.did-you-know-social-icon{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2em;
+}
+
+.did-you-know-social-icon img{
+  justify-self: center;
+  padding: 1em;
+  background-color: #C1F7D5;
+  border-radius: 50%;
+}
+
+.did-y-n-tag{
+  position: relative;
+}
+
+.did-y-n-tag .did-tag {
+  position: absolute;
+  font-size: 1.3em;
+  background-color: black;
+  color: white;
+  padding: 0.3em;
+  top: -1em;
+  left: 3em;
+  
+}
+
+.did-you-know-hash-tag button{
+  margin-top: 4em;
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 3em;
+  background-color: #C1F7D5;
+  color: #354463;
+}
+
+ 
+/* Did you knoe secton ends here */
+
+
+/* Stories sections starts here */
+
+.stories{
+  padding: 6em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
+
+.stories-image{
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 1/2
+  
+}
+
+.stories-content{
+  position: relative;
+  top: 20%;
+  left: 2em;
+  grid-column: 1/2;
+  grid-row: 1/2;
+ 
+  align-self: start;
+}
+.stories-content-text{
+  padding: 1.5em;
+  font-size: x-large;
+}
+.stories-content-read-btn{
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.stories-image img {
+ 
+  width: 100%;
+} 
+
+.stories-image-tag{
+  z-index: 5;
+  position: absolute;
+  background-color: #000000;
+  color: white;
+  padding: 0.5em 1em;
+  top: -1em;
+  left: 2em;
+}
+
+/* Stories section ends here */
+
+/* Event section start here */
+  
+  .events{
+    display: grid;
+    padding: 6em;
+    grid-row-gap: 4em;
+    grid-template-columns: 1fr;
+    background-color: #354463;
+  }
+  .events-heading{
+    font-size: 3em;
+    font-family: 'flood';
+    line-height: 1.5em;
+    color: white;
+  }
+
+  .events-content{
+    display: grid;
+   
+    grid-template-columns:  1.4fr 1.2fr;
+    grid-column-gap: 4em;
+         
+    
+  }
+  .event-latest-news {
+    display: grid;
+    grid-template-columns:  1fr 1.2fr;
+    grid-column-gap: 2em;
+  }
+
+  .event-image{
+    width: 100%;
+  }
+
+  .latest-news-content, .event-content-text{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2em;
+  
+  }
+   .event-head-item{
+     font-size: 3.5em;
+     color: white;
+   }
+
+   .event-content-item{
+     font-size: 1.5em;
+     color: white;
+
+   }
+  .button-read-more-event{
+    align-self: start;
+    justify-self: start;
+  }
+
+  .event-tag{
+    width: 80px;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: black;
+    background: white;
+    align-self: start;
+    justify-self: start;
+  }
+   
+  .event-tag,.button-read-more-event{
+    margin: 0px;
+  }
+/* Event section ends here */
+ 
+/* Subscribe section starts her */
+  .subscribe{
+    padding: 4em 6em;
+    background-color: #C1F7D5;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+  }
+   .subscribe-tag, .subscribe-form{
+     padding: 0.5em;
+   }
+   .subscribe-form{
+     align-self: center;
+    
+   }
+  
+   .subscribe-tag{
+     font-size: 1em;
+     color: #354463;
+   }
+
+   .subscribe-form-input{
+    font-size: 1.3em;
+    padding: 0.2em;
+    border-radius: 3em;
+   }
+  .subscribe-form-btn{
+    margin-left: 0em; 
+    font-size: 1em;
+    padding: 0.5em 2em;
+    border-radius: 3em;
+    border: none;
+    background-color: #354463;
+    font-weight: 300;
+     color: #C1F7D5;
+     box-shadow: none;
+  }
+
+
+/* Subscribe section ends her */
+
+ /* Footer section starts here */
+   footer{
+     padding: 3em 6em;
+     display: grid;
+     grid-template-columns: 1.2fr 1fr 1fr 1fr 1.2fr;
+     grid-column-gap: 2em;
+   }
+   .foot-link-items,.footer-follow-items{
+    
+     display: grid;
+     
+     grid-template-columns: 1fr;
+     grid-row-gap: 0.5em;
+     padding-top: 1em;
+   }
+   .foot-link-items a,.footer-follow-items a {
+    text-decoration: none;
+    color: black;
+   }
+  .foot-contact-head p, .foot-link-head p, .footer-follow-head p {
+    padding-bottom: 1em;
+  }
+  .foot-contact-address{
+    padding-top: 1em;
+  }
+  .footer-tag{
+    justify-self: end;
+    font-family: flood;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    color: #354463;
+  }
+
+/* Footer seection ends here */
+
+
+/* Desktop ends here */
+ /* ______________________________________________________________________________________________________________________________________________________________________ */
+
+
+
+
+ /* Tablet view */
+
+ @media (max-width: 880px){
+  /* Nav section starts here */
+  .logo{
+    grid-column: 1/3;
+    grid-row: 1/2; 
+    font-size: 0.8rem;
+  }
+  .nav-items{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 4em; 
+    font-size: 0.9em;
+  }
+  .donate{
+    grid-column: 3;
+    grid-row:1/3;
+    align-self: center;
+  }
+
+  /* Navsection ends here */
+
+  /* hero section starts here  */
+  .hero-section{
+    background-image: url('/assets/images/hero-mobile.png');
+  }
+    
+   .hero-content
+   {
+     grid-row-gap: 4em;
+   } 
+   .hero-quote{
+     
+     grid-column: 1/3;
+     grid-row: 2/3;   
+      
+   } 
+   .hero-quote-climate{
+     font-size: 2em;
+   }
+   .hero-hash-tag  p{
+    padding-left: 0em;
+   }
+    /*Hero section ends here  */
+    /* take section starts here */
+    .take-action{
+      padding: 2em;
+      grid-template-columns: 1fr 1fr ;
+    }
+    /* Take action ends here */
+    /* our mission section starts here */
+
+    .our-mission-content{
+      grid-template-columns: 1fr;
+      grid-row-gap: 6em;
+      
+    }
+
+    .our-mission-content-item{
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-column-gap: 2em;
+      background-color: white;
+     
+    }
+    .our-mission-content-item img{
+     position: relative;
+     grid-column: 1/2;
+     grid-row: 1/2;
+    
+     width: 100%;
+    }
+    .our-mission-content-text{
+      padding: 2em;
+      grid-column: 2/4;
+     grid-row: 1/3; 
+    }
+    .our-mission-button{
+      margin-right: 0em;
+      position: relative;
+      left: 20px;
+      justify-self: end;
+    }
+    
+
+    /* Our mission section end */
+    /* Did you know section start */
+    .did-you-know{
+      background-image: url('/assets/images/did-you-know-background-mobile.png');
+    }
+    .did-you-know{
+      grid-column-gap: 1em;
+    }
+    .did-you-know-hash-tag p {
+      font-size: 3em;
+    }
+    .did-you-know-con-item{
+      padding: 2em;
+    }
+    .did-you-know-hash-tag button{
+     font-size: 1em;
+    }
+    .did-y-n-tag .did-tag{
+      font-size: 1em;
+    }
+
+    /* did you know section ends here */
+
+    /* stories section starts here */
+
+    .stories{
+      padding: 6em;
+       
+    }
+
+    .stories-image{
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+
+    .stories-content{
+      position: relative;
+      top:-2em;
+      left: 2em;
+      grid-column: 1/3;
+      grid-row: 2/3;
+      
+    }
+
+    .stories-content-read-btn{
+      margin-top: 4em;
+      margin-bottom: 0em;
+    }
+    /* stories section ends here */
+    /* Events section starts here */
+    .event-head-item{
+      font-size: 2.3em;
+    }
+ 
+    .event-content-item{
+      font-size: 1.2em;
+    }
+    .event-tag,.button-read-more-event{
+      margin: 0px;
+    }
+     
+    /*Events section ends here  */
+  
+
+     /* Subscribe section starts her */
+     .subscribe{
+      padding: 6em 4em;
+      grid-template-columns: 2fr 1fr;
+    }
+    .subscribe-form{
+      font-size: 1em;
+      grid-row: 2/3;
+      grid-column: 1/3;
+    }
+    .subscribe-tag{
+      font-size: 0.9em;
+      grid-row: 1/2;
+      grid-column: 1/3;
+    }
+    .subscribe-form-input{
+      width: 16em;
+      border: none;
+    }
+
+     
+    .subscribe-form-btn{
+      margin-left: 0em; 
+      font-size: 1em;
+      padding: 0.5em 2em;
+      border-radius: 3em;
+      border: none;
+      background-color: #354463;
+      font-weight: 300;
+       color: #C1F7D5;
+       box-shadow: none;
+    }
+  
+     
+
+     /* Subscribe section ends her */
+     
+
+     /* Footer section starts here */
+     footer{
+       grid-row-gap: 2em;
+     }
+     .footer-header{
+       grid-column: 1/2;
+       grid-row: 1/2;
+    }
+    .footer-contact-us{
+      grid-column: 2/4;
+      grid-row: 1/2;
+    }
+    .footer-links{
+      grid-column: 4/6;
+      grid-row: 1/2;
+    }
+    .footer-follow-us{
+      grid-column: 2/4;
+      grid-row: 2/3;
+    }
+
+    .footer-tag{
+      grid-column: 4/6;
+      grid-row: 2/3;
+      justify-self: start;
+    }
+
+
+     /* Footer seection ends here */
+    
+}
+
+/* Tablet view ends here */
+/* >>>>>>><<<<<<<<<<<<<<<<<< >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* Mobile View */
+
+@media (max-width: 576px){
+  /* Navigation section starts here */
+   
+  
+  nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .logo{
+    padding-left: 2em;
+    grid-column: 1/2;
+    grid-row: 1/2; 
+    align-self: center;
+    font-size: 0.8rem; 
+  }
+
+  .nav-items{
+    display: grid;
+    grid-row-gap: 1em;
+     justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    padding-left: 0em;
+    font-size: 0.9em; 
+  }
+
+  .donate{
+    grid-column: 1/3;
+    grid-row:2;
+    align-self: center; 
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .donate button{
+    width: 100%;
+  }
+
+  /* Navigation section ends here */
+  
+  /* Herosection starts here */
+
+  .hero-content{
+    grid-row-gap: 6em;
+    padding: 4em 2em 4em 2em;
+  }
+  .hero-quote{
+    text-align: center;
+  }
+  .hero-the-issue-tag{
+   left: 50%;
+   transform: translateX(-52px);
+  }
+  /* Hero section ends here */
+  /* Take action section starts here */
+  .take-action .take-action-item{
+    padding: 1em;
+  }
+   
+  .take-action-item h3 {
+    font-size: 1em;
+    padding-bottom: 0.2em;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .take-action-item p{
+    font-size: 1em;
+  }
+
+
+  /* take action section ends her */
+  /* our mission section starts here */
+  .our-mission{
+    padding: 4em 2em 2em 2em;
+  }
+  
+   .our-mission-content{
+     padding: 1em;
+     grid-template-columns: 1fr 3fr 1fr;
+   }
+   .our-mission-content-item{
+    grid-column: 1/4;
+   }
+   .our-mission-content-text {
+    padding: 1em;
+    padding-top: 9.5em;
+    grid-column: 1/4;
+    text-align: center;
+    }
+     .our-mission-content-item img{
+      position: relative;
+      left: 0;
+      width: 80%;
+      margin: 0 auto;
+      grid-column: 1/4;
+     
+    } 
+    
+    .our-mission-button{
+      grid-column: 1/3;
+      margin-left: 5em;     
+      margin-right: 0em;
+      position: relative;
+      left: 0px;
+      justify-self: center;
+    }
+    
+    /* our mission section ends here */
+
+
+    /* did you know section starts here */
+     
+    .did-you-know{
+      padding: 2em ;
+      grid-row-gap: 4em;
+    }
+    .did-you-know-hash-tag{
+      grid-column: 1/3;
+       
+    }
+    .did-you-know-content{
+      grid-column: 1/3;
+      grid-row: 2;
+    }
+   /* did-you-section starts her */
+    /* Stories section starts here */
+   .stories{
+     padding: 3em;
+     grid-row-gap: 2em;
+   }
+    .stories-content{
+      top: 2em;
+      left: 0em;
+      text-align: center;
+      font-size: 1.2em;
+    }
+    .stories-content-read-btn{
+      margin-left: 0em;
+      margin-bottom: 2em;
+    }
+    .stories-content-text{
+      font-size: 0.8em;
+    }
+
+    /* stories section ends here */
+     /* events sectin starts here */
+    .events{
+      padding: 2em;
+    }
+     .events-heading{
+       font-size: 1.6em;
+     }
+    .events-content,.event-latest-news{
+      grid-row-gap: 4em;
+    }
+
+    .event-content-text,.latest-news-content{
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-items: center;
+      text-align: center;
+    }
+    .event-image{
+      grid-column: 1/3;
+      grid-row: 1/2;
+
+    }
+    
+    .event-tag,.button-read-more-event{
+      margin: 0 auto;
+    }
+    .event-latest-news,.events-content {
+      position: relative;
+    }
+    .event-tag-news,.event-content-tag{
+      position: absolute;
+      top: -1em;
+      left: 50%;
+      transform: translateX(-55px);
+    }
+    /* Event section ends here */
+     
+
+    /* Subscribe section starts her */
+    .subscribe{
+      padding: 2em;
+      grid-template-columns: 2fr 1fr;
+    }
+    .subscribe-tag{
+      
+      grid-column: 1/3;
+      font-size: 0.9em;
+    }
+    .subscribe-form{
+      grid-column: 1/3;
+      grid-row: 2/3;
+    }
+    .subscribe-form-input{
+     
+      width: 6em;
+    }
+    .subscribe-form-btn{
+      padding: 0.2em 0.4em;
+     
+    }
+     /* Subscribe section ends her */
+
+     /* Footer section starts here */
+     footer{
+       padding: 2em;
+     }
+       .footer-header{
+          grid-column: 1/3;
+          grid-row: 1/2;
+          justify-self: start;
+       }
+       .footer-contact-us{
+        grid-column: 3/6;
+        grid-row: 1/2;
+        justify-self: end
+       }
+       .footer-links{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        justify-self: start;
+       }
+       .footer-follow-us{
+        grid-column: 3/6;
+        grid-row: 2/3;
+        justify-self: center;
+       }
+
+       .footer-tag{
+        grid-column: 1/6;
+        grid-row: 3/4;
+        justify-self: end;
+       }
+
+     /* footer seection ends here */
+}
+
+/* Mobile view ends here */
